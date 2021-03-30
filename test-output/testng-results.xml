@@ -1,17 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2273" started-at="2021-03-30T15:39:53 IST" finished-at="2021-03-30T15:39:55 IST">
+  <suite name="Default suite" duration-ms="24879" started-at="2021-03-30T17:53:37 IST" finished-at="2021-03-30T17:54:01 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2273" started-at="2021-03-30T15:39:53 IST" finished-at="2021-03-30T15:39:55 IST">
-      <class name="demo.TC006_Basic_Auth_Test">
-        <test-method status="PASS" signature="verify_Basic_Auth_Test()[pri:0, instance:demo.TC006_Basic_Auth_Test@77ec78b9]" name="verify_Basic_Auth_Test" duration-ms="2231" started-at="2021-03-30T15:39:53 IST" finished-at="2021-03-30T15:39:55 IST">
+    <test name="Default test" duration-ms="24879" started-at="2021-03-30T17:53:37 IST" finished-at="2021-03-30T17:54:01 IST">
+      <class name="demo.TC006_DDT_AddEmployee_Test">
+        <test-method status="PASS" signature="addEmployee(java.lang.String,java.lang.String)[pri:0, instance:demo.TC006_DDT_AddEmployee_Test@87f383f]" name="addEmployee" duration-ms="3687" started-at="2021-03-30T17:53:39 IST" data-provider="Employee" finished-at="2021-03-30T17:53:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Don]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CEO]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_Basic_Auth_Test -->
-      </class> <!-- demo.TC006_Basic_Auth_Test -->
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="addEmployee(java.lang.String,java.lang.String)[pri:0, instance:demo.TC006_DDT_AddEmployee_Test@87f383f]" name="addEmployee" duration-ms="1321" started-at="2021-03-30T17:53:43 IST" data-provider="Employee" finished-at="2021-03-30T17:53:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Director]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="addEmployee(java.lang.String,java.lang.String)[pri:0, instance:demo.TC006_DDT_AddEmployee_Test@87f383f]" name="addEmployee" duration-ms="2304" started-at="2021-03-30T17:53:44 IST" data-provider="Employee" finished-at="2021-03-30T17:53:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="addEmployee(java.lang.String,java.lang.String)[pri:0, instance:demo.TC006_DDT_AddEmployee_Test@87f383f]" name="addEmployee" duration-ms="2227" started-at="2021-03-30T17:53:46 IST" data-provider="Employee" finished-at="2021-03-30T17:53:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="addEmployee(java.lang.String,java.lang.String)[pri:0, instance:demo.TC006_DDT_AddEmployee_Test@87f383f]" name="addEmployee" duration-ms="1534" started-at="2021-03-30T17:53:49 IST" data-provider="Employee" finished-at="2021-03-30T17:53:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maggy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sr.Cosultant]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="addEmployee(java.lang.String,java.lang.String)[pri:0, instance:demo.TC006_DDT_AddEmployee_Test@87f383f]" name="addEmployee" duration-ms="1941" started-at="2021-03-30T17:53:50 IST" data-provider="Employee" finished-at="2021-03-30T17:53:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Peggy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Consultant]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="addEmployee(java.lang.String,java.lang.String)[pri:0, instance:demo.TC006_DDT_AddEmployee_Test@87f383f]" name="addEmployee" duration-ms="1338" started-at="2021-03-30T17:53:52 IST" data-provider="Employee" finished-at="2021-03-30T17:53:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dink]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[As.Consultant]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="addEmployee(java.lang.String,java.lang.String)[pri:0, instance:demo.TC006_DDT_AddEmployee_Test@87f383f]" name="addEmployee" duration-ms="1936" started-at="2021-03-30T17:53:53 IST" data-provider="Employee" finished-at="2021-03-30T17:53:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dong]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sr.Analyst]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="addEmployee(java.lang.String,java.lang.String)[pri:0, instance:demo.TC006_DDT_AddEmployee_Test@87f383f]" name="addEmployee" duration-ms="2167" started-at="2021-03-30T17:53:55 IST" data-provider="Employee" finished-at="2021-03-30T17:53:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Poppey]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Analyst]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="addEmployee(java.lang.String,java.lang.String)[pri:0, instance:demo.TC006_DDT_AddEmployee_Test@87f383f]" name="addEmployee" duration-ms="1821" started-at="2021-03-30T17:53:57 IST" data-provider="Employee" finished-at="2021-03-30T17:53:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lazy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sr.Software Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="addEmployee(java.lang.String,java.lang.String)[pri:0, instance:demo.TC006_DDT_AddEmployee_Test@87f383f]" name="addEmployee" duration-ms="2147" started-at="2021-03-30T17:53:59 IST" data-provider="Employee" finished-at="2021-03-30T17:54:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sexy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Software Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+      </class> <!-- demo.TC006_DDT_AddEmployee_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
