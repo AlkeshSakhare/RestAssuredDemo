@@ -8,7 +8,7 @@ import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class TC006_Basic_Auth_Test {
+public class TC005_Basic_Auth_Test {
 
 	@Test
 	private void verify_Basic_Auth_Test() {
